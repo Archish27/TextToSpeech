@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -42,7 +41,6 @@ class UIMain extends JFrame implements ActionListener
 		input=new JTextArea(5,10);
 		output=new JTextArea(5,10);
 		font = new Font("", Font.PLAIN, 18);
-		
 		input.setFont(font);
 		output.setFont(font);
 		input.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
